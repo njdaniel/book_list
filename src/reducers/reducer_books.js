@@ -6,5 +6,5 @@ export default function () {
         {title: 'Javerscript: Book'},
         {title: 'Harry Pootter'},
         {title: 'The Dark Tower'}
-    ]
+    ];
 }

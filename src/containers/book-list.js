@@ -1,15 +1,14 @@
 /**
  * Created by nicholas on 4/20/17.
  */
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import {connect} from 'react-redux';
 
 class BookList extends Component {
-
     renderList() {
         return this.props.books.map((book) => {
             return (
-                <li key={book.title} className={list-group-item}>{book.title}</li>
+                <li key={book.title} className="list-group-item">{book.title}</li>
             );
         });
     }
@@ -17,7 +16,7 @@ class BookList extends Component {
     render() {
         return (
             <ul className="list-group col-sm-4">
-                {this.renderList}
+                {this.renderList()}
 
             </ul>
         )
