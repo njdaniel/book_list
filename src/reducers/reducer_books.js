@@ -3,8 +3,8 @@
  */
 export default function () {
     return [
-        {title: 'Javerscript: Book'},
-        {title: 'Harry Pootter'},
-        {title: 'The Dark Tower'}
+        {title: 'Javerscript: Book', pages: 101},
+        {title: 'Harry Pootter', pages: 39},
+        {title: 'The Dark Tower', pages: 100}
     ];
 }
